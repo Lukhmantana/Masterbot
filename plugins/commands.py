@@ -48,7 +48,7 @@ async def start(client, message):
             InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/AM_chats_2_0')
             ],[
             InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/cinmeafox'),
-            InlineKeyboardButton('ᴄʟᴏꜱᴇ', callback_data='close_pages')
+            InlineKeyboardButton('ᴄʟᴏꜱᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -91,7 +91,7 @@ async def start(client, message):
             InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/AM_chats_2_0')
             ],[
             InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/cinmeafox'),
-            InlineKeyboardButton('ᴄʟᴏꜱᴇ', callback_data='close_pages')
+            InlineKeyboardButton('ᴄʟᴏꜱᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
