@@ -410,7 +410,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/AM_chats_2_0')
         ], [
             InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/cinmeafox'),
-            InlineKeyboardButton('ᴄʟᴏꜱᴇ', callback_data='about')
+            InlineKeyboardButton('ᴄʟᴏꜱᴇ', callback_data='close_pages')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
