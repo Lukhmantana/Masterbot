@@ -47,7 +47,7 @@ async def start(client, message):
             InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/lukhman_jr'),
             InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/AM_chats_2_0')
             ],[
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/MOLLYWO'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/cinmeamax'),
             InlineKeyboardButton('ᴄʟᴏꜱᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
